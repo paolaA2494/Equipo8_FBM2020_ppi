@@ -54,6 +54,7 @@
     font-size: 50px;
     font-family: serif;
 }
+<<<<<<< HEAD
 .unoo:hover{
     opacity: 0.6;
     
@@ -70,6 +71,11 @@
 .un p:hover{
     color: rgb(182, 179, 179);
 }
+=======
+.un{
+    color: #fff;
+}
+>>>>>>> f7bd3d4bc638591241c276fc989ffcb4f367c2b7
 .doss{
     color: #fff;
     margin: 20px;

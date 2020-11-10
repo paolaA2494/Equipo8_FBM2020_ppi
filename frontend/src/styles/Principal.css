@@ -111,9 +111,13 @@
                         padding: 15px;
                     }
                     /* sepcion-tres*/
+<<<<<<< HEAD
                     main{
                         padding: 0px 0px 0px 0px;
                     }
+=======
+                    
+>>>>>>> f7bd3d4bc638591241c276fc989ffcb4f367c2b7
                     .sepcion-tres {
                         display: flex;
                         padding: 40px 50px 40px 50px;
@@ -129,7 +133,11 @@
                     }
                     
                     .columna-dos {
+<<<<<<< HEAD
                         width: 700px;
+=======
+                        width: 500px;
+>>>>>>> f7bd3d4bc638591241c276fc989ffcb4f367c2b7
                         padding: 15px;
                         text-align: center;
                         display: flex;
@@ -154,6 +162,7 @@
 
 
                     @media screen and (max-width: 480px) {
+<<<<<<< HEAD
                         main{
                             padding: 0px;
                         }
@@ -222,3 +231,53 @@
                         
                         
                     }
+=======
+                   
+                    .sepcion-uno {
+                        flex-direction: column;
+                    }
+                    .contenedor-dos {
+                        margin: 0px;
+                    }
+                  
+                    .contenedor-dos img {
+                        width: 350px;
+                        height: 210px;
+                        box-shadow: 12px 12px 3px -4px rgba(133, 133, 133, 0.578);
+                        
+                    }
+
+                    .contenedor-tres {
+                        margin: 0px;
+                    }
+                    .contenedor-tres img {
+                        width: 350px;
+                        height: 210px;
+                        box-shadow: 12px 12px 3px -4px rgba(133, 133, 133, 0.578);
+                    }
+                    /*seption-dos*/
+                    .sepcion-dos {
+                        display: flex;
+                        flex-direction: column;
+                        padding: 0px;
+                        height: 600px;
+                    }
+                    .imagen img {
+                        width: 350px;
+                        height: 200px;
+                        margin-left: -5px;
+                    }
+                    .texto {
+                        margin: 0px;
+                        text-align: center;
+                    }
+                    .texto p {
+                        margin: 0px;
+                    }
+                    /*seption-tres*/
+                    .sepcion-tres {
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
+                }
+>>>>>>> f7bd3d4bc638591241c276fc989ffcb4f367c2b7

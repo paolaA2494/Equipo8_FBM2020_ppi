@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "BACKEND_API_MYSQL_FBM",
+=======
+  "name": "backend",
+>>>>>>> f7bd3d4bc638591241c276fc989ffcb4f367c2b7
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

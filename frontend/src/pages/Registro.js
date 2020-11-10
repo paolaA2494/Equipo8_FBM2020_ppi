@@ -13,9 +13,14 @@ class Registro extends Component {
                    <div className="contenedor">
                        <div className="formulario">
                            <h2>Registrarse</h2>
+<<<<<<< HEAD
                         */ruta de acuerdo al backend*/ 
                            <form action="localhost:3000/Registro">
                                
+=======
+
+                           <from>
+>>>>>>> f7bd3d4bc638591241c276fc989ffcb4f367c2b7
                                <input type="text" placeholder="Nombre"/>
                                <input type="text" placeholder="Apellido"/>
                                <input type="text" placeholder="Correo"/>
@@ -24,7 +29,11 @@ class Registro extends Component {
                                 <input type="submit" placeholder="Ingresar"/>
                                 </Link>
                               
+<<<<<<< HEAD
                            </form>
+=======
+                           </from>
+>>>>>>> f7bd3d4bc638591241c276fc989ffcb4f367c2b7
                        </div>
                    </div>
                </main>
