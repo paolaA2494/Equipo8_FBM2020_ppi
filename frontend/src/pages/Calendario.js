@@ -13,20 +13,26 @@ const Calendario = () => {
         setDate(date)
     }
 
-
     return (
         <div>
-                <section className="barraa">
-                    <div className="barrita">
+            <div className="cal">
+            <div className="barrita">
                     <img src={Logo} />
                     <h1>Calendario</h1>
                     </div>
+                <section className="barraa">
+                    
                 <div className="calendarioo">
             <Calendar onChange={onChange} value={date} />
             {console.log(date)}
                 </div>
+                <div className="botin">
+                    <a className="botinn" href="/usuario"> Atras </a>
+                </div>
                 </section>
-            
+                
+                </div>
+                
         </div>
 
        

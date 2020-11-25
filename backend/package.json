@@ -1,19 +1,16 @@
 {
-<<<<<<< HEAD
-  "name": "BACKEND_API_MYSQL_FBM",
-=======
-  "name": "backend",
->>>>>>> f7bd3d4bc638591241c276fc989ffcb4f367c2b7
+  "name": "semana9",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "mysql": "^2.18.1"
   },

@@ -1,45 +1,22 @@
-<<<<<<< HEAD
-const express = require('express');// declaración
-const app = express();//constructor de la clase Express
-
-const routes = require('./routes/routes');//crud
-const registro = require('./routes/registro');//crud
-const inicio = require('./routes/inicio');//crud
-
-app.set('port',3000)
-
-
-//middleware
-app.use(express.json());
-
-//ajustes
-app.use('/api',routes);// peticiones directas, acciones, callback
-app.use('/api/registro',registro)
-app.use('/api/inicio',inicio)
-
-app.listen(app.get('port'),()=>{
-console.log('Servidor corriendo en puerto '+app.get('port'));
-
-})
-
-=======
-const express= require('express');
+const express = require('express');
 const app = express();
-const routes= require('./routes/routes');
-//ajustes
-app.set('port',4001)
+const cors = require('cors');
+
+const registro = require('./routes/registro');
 
 
-// Middleware
+//importante para conexion del front con el back
+//Uso de cors
+app.use(cors({origin: '*'}));
+// conectar con el link de su frontend app.use(cors({origin: 'https://ppi-app.vercel.app/'}))
+
+app.set('port', process.env.PORT || 3000);
+
 app.use(express.json());
 
+//rutas
+app.use('/api/registro', registro);
 
-// rutas
-app.use('/api',routes);
-
-
-//ajustes
-app.listen(app.get('port'),()=>{
-    console.log(`Servidor corriendo en puerto  ${app.get('port')}`)
-}) 
->>>>>>> f7bd3d4bc638591241c276fc989ffcb4f367c2b7
+app.listen(app.get('port'), ()=>{
+ console.log(`Server on port ${app.get('port')}`);
+})

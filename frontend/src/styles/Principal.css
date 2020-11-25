@@ -1,4 +1,11 @@
  
+
+                    main{
+                        width: 100%;
+                        max-width: 100%;
+                        padding: 20px;
+                        box-sizing: border-box;
+                    }
                     .titulo {
                         font-family: serif;
                         font-size: 50px;
@@ -26,15 +33,18 @@
                     
                     .contenedor-dos {
                         display: flex;
+                        width: 50%;
                         padding: 15px;
                         align-items: center;
                         flex-direction: column;
                         /* margin: auto; */
                     }
-                    
+                    .tilulo-dos{
+                        text-align: center;
+                    }
                     .contenedor-dos img {
-                        width: 450px;
-                        height: 310px;
+                        width: 100%;
+                        height: auto;
                         border-radius: 10px;
                         box-shadow: 12px 12px 3px 1px rgba(133, 133, 133, 0.578);
                     }
@@ -43,10 +53,12 @@
                         padding: 20px 15px 20px 15px;
                         text-align: center;
                         font-family: serif;
+                        
                     }
                     
                     .contenedor-tres {
                         display: flex;
+                        width: 50%;
                         padding: 15px;
                         align-items: center;
                         flex-direction: column;
@@ -54,8 +66,8 @@
                     }
                     
                     .contenedor-tres img {
-                        width: 450px;
-                        height: 310px;
+                        width: 100%;
+                        height: auto;
                         border-radius: 10px;
                         box-shadow: 12px 12px 3px 1px rgba(133, 133, 133, 0.578);
                     }
@@ -70,7 +82,7 @@
                     .sepcion-dos {
                         display: flex;
                         width: 100%;
-                        height: 600px;
+                        height: auto;
                         background: #076585;
                         /* fallback for old browsers */
                         background: -webkit-linear-gradient(to right, rgba(8, 12, 12, 0.42), #0d101c61), url(../img/imagengrande.jpeg);
@@ -89,10 +101,9 @@
                     }
                     
                     .imagen img {
-                        width: 500px;
-                        height: 400ps;
+                        width: 50%;
+                        height: auto;
                         margin: auto;
-                        padding: 15px;
                         border-radius: 10px;
                         display: flex;
                     }
@@ -104,27 +115,22 @@
                     }
                     
                     .texto {
+                        width: 40%;
                         color: rgb(184, 184, 184);
                         font-family: serif;
                         font-size: 20px;
-                        margin-top: 175px;
-                        padding: 15px;
+                        padding: 5px;
                     }
                     /* sepcion-tres*/
-<<<<<<< HEAD
-                    main{
-                        padding: 0px 0px 0px 0px;
-                    }
-=======
-                    
->>>>>>> f7bd3d4bc638591241c276fc989ffcb4f367c2b7
+                  
                     .sepcion-tres {
                         display: flex;
-                        padding: 40px 50px 40px 50px;
+                        padding: 40px;
+                        margin-left: 50px;
                     }
                     
-                    .columna-uno {
-                        width: 500px;
+                    .columna-unoo {
+                        width: 30%;
                         padding: 15px;
                         text-align: center;
                         display: flex;
@@ -133,11 +139,7 @@
                     }
                     
                     .columna-dos {
-<<<<<<< HEAD
-                        width: 700px;
-=======
-                        width: 500px;
->>>>>>> f7bd3d4bc638591241c276fc989ffcb4f367c2b7
+                        width: 30%;
                         padding: 15px;
                         text-align: center;
                         display: flex;
@@ -146,7 +148,7 @@
                     }
                     
                     .columna-tres {
-                        width: 500px;
+                        width: 30%;
                         padding: 15px;
                         text-align: center;
                         display: flex;
@@ -161,123 +163,49 @@
                     }
 
 
-                    @media screen and (max-width: 480px) {
-<<<<<<< HEAD
+                    @media screen and (max-width: 800px) {
                         main{
-                            padding: 0px;
-                        }
-                        .sepcion-uno{
-                            padding: 0px;
-                            margin: 0px;
-                            margin-left: -20px;
-                        }
-                        .contenedor-dos{
-                            margin: 0px;
-                            padding: 0px;
-                        }
-                        .contenedor-dos img{
-                            width: 300px;
-                            height: 200px;
-                        }
-                        .contenedor-tres{
-                            margin: 0px;
-                            padding: 0px;
-                        }
-                        .contenedor-tres img{
-                            width: 300px;
-                            height: 200px;
-                        }
-                        /*sepcion dos*/
-                        .sepcion-dos{
                             width: 100%;
-                            height: 8%;
-                            padding: 0px;
+                         }
+                         .sepcion-uno{
+                             width: 100%;
+                             flex-direction: column;
+                         } 
+                         .contenedor-dos{
+                             width: 100%;
+                         } 
+                         .contenedor-tres{
+                             width: 100%;
+                         }
+                       
+                         .sepcion-dos{
+                             width: 100%;
+                             flex-direction: column;
+                         }
+                         .sepcion-dos .imagen{
+                             display: none;
+                         }
+                         .texto{
+                             width: 100%;
+                             
+                         }
+                         .sepcion-tres{
+                            width: 100%;
                             flex-direction: column;
+                            margin-left: 0px;
+                         }
+                         .columna-unoo{
+                             width: 100%;
+                         }
+                         .columna-dos{
+                             width: 100%;
+                         }
+                         .columna-tres{
+                             width: 100%;
+                         }
+                    }
+                    @media screen and (max-width: 400px){
+                        main{
+                            width: 100%;
                         }
-                        .sepcion-dos img{
-                            width: 250px;
-                            height: 200px;
-                            margin-top: 10px;
-                            padding: 0px;
-                            margin-left: 7px;
-                        }
-                        .texto{
-                            margin-top: 10px;
-                            text-align: center;
-
-                        }
-                        .texto .tilulo-dos{
-                            text-align: center;
-                        }
-                        /*sepcion tres*/
-                        .sepcion-tres{
-                            flex-direction: column;
-                        }
-                        .columna-uno {
-                            padding: 0px 60px 0px 60px;
-                            margin-left: -50px;
-                        }
-                        .titulo-tres{
-                            padding: 0px;
-                        }
-                        .columna-dos {
-                            padding: 0px 80px 0px 80px;
-                        }
-                        .columna-tres {
-                            padding: 0px 60px 0px 60px;
-                        }
-                        
-                        
-                        
-                        
                     }
-=======
-                   
-                    .sepcion-uno {
-                        flex-direction: column;
-                    }
-                    .contenedor-dos {
-                        margin: 0px;
-                    }
-                  
-                    .contenedor-dos img {
-                        width: 350px;
-                        height: 210px;
-                        box-shadow: 12px 12px 3px -4px rgba(133, 133, 133, 0.578);
-                        
-                    }
-
-                    .contenedor-tres {
-                        margin: 0px;
-                    }
-                    .contenedor-tres img {
-                        width: 350px;
-                        height: 210px;
-                        box-shadow: 12px 12px 3px -4px rgba(133, 133, 133, 0.578);
-                    }
-                    /*seption-dos*/
-                    .sepcion-dos {
-                        display: flex;
-                        flex-direction: column;
-                        padding: 0px;
-                        height: 600px;
-                    }
-                    .imagen img {
-                        width: 350px;
-                        height: 200px;
-                        margin-left: -5px;
-                    }
-                    .texto {
-                        margin: 0px;
-                        text-align: center;
-                    }
-                    .texto p {
-                        margin: 0px;
-                    }
-                    /*seption-tres*/
-                    .sepcion-tres {
-                        display: flex;
-                        flex-wrap: wrap;
-                    }
-                }
->>>>>>> f7bd3d4bc638591241c276fc989ffcb4f367c2b7
